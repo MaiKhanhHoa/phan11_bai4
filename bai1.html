@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="hienra"></h1>
+</body>
+<script>
+    let a=1
+    let b=1
+    document.getElementById("hienra").innerHTML= a + '<br>' + b
+    for (d=1;d<10;d++) {
+        a=b+a
+        b=a+b
+        document.getElementById("hienra").innerHTML+="<br>" + a +"<br>" +b
+    }
+</script>
+</html>
